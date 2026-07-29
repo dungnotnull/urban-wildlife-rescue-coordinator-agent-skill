@@ -5,7 +5,6 @@
 [![Claude Skill](https://img.shields.io/badge/Claude-Skill-blue)](https://claude.ai/claude-code)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
-[![CI](https://github.com/urban-wildlife-rescue-coordinator/urban-wildlife-rescue-coordinator/actions/workflows/ci.yml/badge.svg)](https://github.com/urban-wildlife-rescue-coordinator/urban-wildlife-rescue-coordinator/actions)
 [![Version](https://img.shields.io/badge/version-1.0.0-blue)](CHANGELOG.md)
 
 A professional-grade Claude Code harness for **Urban Wildlife Rescue & Rehabilitation** — gathers real-time authoritative data, applies recognized domain methods, integrates academic research, and delivers evidence-backed, risk-disclosed outputs with a continuously self-improving knowledge pipeline.
