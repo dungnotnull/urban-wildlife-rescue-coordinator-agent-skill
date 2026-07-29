@@ -1,0 +1,54 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "urban-wildlife-rescue-coordinator"
+version = "1.0.0"
+description = "Urban Wildlife Rescue Coordination Advisor — Claude Code skill for evidence-backed wildlife rescue decision support"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.11"
+keywords = [
+    "claude-code",
+    "claude-skill",
+    "wildlife-rescue",
+    "wildlife-rehabilitation",
+    "urban-ecology",
+    "conservation",
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+]
+dependencies = [
+    "crawl4ai>=0.3.0",
+    "feedparser>=6.0.10",
+    "python-dateutil>=2.8.2",
+    "requests>=2.31.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/urban-wildlife-rescue-coordinator/urban-wildlife-rescue-coordinator"
+Repository = "https://github.com/urban-wildlife-rescue-coordinator/urban-wildlife-rescue-coordinator"
+Issues = "https://github.com/urban-wildlife-rescue-coordinator/urban-wildlife-rescue-coordinator/issues"
+Changelog = "https://github.com/urban-wildlife-rescue-coordinator/urban-wildlife-rescue-coordinator/blob/main/CHANGELOG.md"
+
+[tool.setuptools]
+packages = ["tools"]
+
+[tool.pytest.ini_options]
+testpaths = ["tools"]
+python_files = ["test_*.py"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "N", "W", "UP"]
